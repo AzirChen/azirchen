@@ -64,10 +64,10 @@ input[value="Search"]{
   text-decoration:none;
 }
 .me_icon_info{
-  background: url(../images/chen.jpg)no-repeat 0px 0px;
+  background: url(../images/dog.jpg)no-repeat 0px 0px;
   width: 500px;
-  height: 400px;
-  margin: 10% auto 0;
+  height: 450px;
+  margin: 8% auto 0;
 }
 .me_icon_text{
   position: absolute;
