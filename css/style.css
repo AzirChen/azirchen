@@ -90,6 +90,106 @@ input[value="Search"]{
   padding-top: 10px;
   font-weight: 100;
 }
+.about{
+  padding: 6em 0 5em;
+}
+.head_text{
+  text-align: center;
+}
+.head_text h2{
+  font-weight: 900;
+  color: #595959;
+  font-size: 2.3em;
+  margin: 0;
+  padding: 0 0 0.4em; 
+}
+.head_text span{
+  width: 8%;
+  margin: 0 auto;
+  background: #D8D8D8;
+  display: block;
+  height: 7px;
+}
+.self_intro{
+  margin-top:4em;
+}
+.left_text{
+  float: left;
+  width: 50%;
+  padding: 100px;
+}
+.left_text h3{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #595959;
+  font-size: 1.5em;
+}
+.left_text span{
+  margin:0.5em 0;
+  padding:0;
+  display:block;
+  text-transform:uppercase;
+  font-weight:600;
+  color:#595959;
+  font-size:1em;
+}
+.left_text p{
+  color:#7c7c7c;
+  font-size:0.9em;
+  line-height:1.9em;
+  margin:0;
+  margin-top:1em;
+}
+.right_img{
+  float: left;
+  width: 50%;
+}
+.right_img img{
+  width:80%;
+  left: 100px;
+}
+.detail{
+  padding-top: 15em;
+  width: 1400px;
+}
+.detail_left{
+  float: left;
+  width: 50%;
+}
+.detail_right{
+  float: left;
+  width: 50%;
+}
+.item{
+  margin-top: 4.5em;
+}
+.year{
+  float: left;
+  width: 15%;
+  margin-right: 5%;
+  background: #D8D8D8;
+  border-radius: 6px;
+  padding: 1.6em 0; 
+}
+.year h5{
+  text-align: center;
+}
+.event,.get{
+  float: left;
+  width: 77%;
+}
+.event h4,.get h4{
+  color: #000000;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-bottom: 0.5em; 
+}
+.event p,.get p{
+  color: #999999;
+  font-size: 1.4em;
+  font-weight: 300;
+}
 body a{
 		transition: 0.5s all ease;
 	-webkit-transition: 0.5s all ease;
