@@ -21,7 +21,22 @@
 	<!-- js -->
 	<script src="js/jquery.min.js"> </script>
 	<script src="js/bootstrap.js"></script>
+	<!-- <script src="js/easing.js"></script> -->
+	<!-- <script src="js/scrollTO.js"></script> -->
+
 	<!-- //js -->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+<!-- //start-smoth-scrolling -->
 </head>
 <body>
 	<div class="header">
@@ -35,7 +50,7 @@
 			  <div class="bar_icon"></div>
 				<nav>
 					<ul class="nav_bar">
-						<li><a href="#home" class="scroll">HOME</a></li>
+						<li><a herf="#home" class="scroll">HOME</a></li>
 						<li><a href="#about" class="scroll">ABOUT</a></li>
 						<li><a href="#skill" class="scroll">SKILL</a></li>
 						<li><a href="#article" class="scroll">ARTICLE</a></li>
@@ -60,7 +75,7 @@
   		</div>
   	</div>
   </div>
-  <div class="about">
+  <div class="about" id="about">
   	<div class="head_text">
   		<h2>About Me</h2>
   		<span> </span>
@@ -147,7 +162,7 @@
   		</div>
   	</div>
   </div>
-  <div class="skill">
+  <div class="skill" id="skill">
   	<div class="container">
   		<div class="skill_info">
   			<h3>SKILL</h3>
@@ -173,7 +188,7 @@
   		</div>
   	</div>
   </div>
-  <div class="article">
+  <div class="article" id="article">
   	<div class="container">
   		<div class="article_info">
   			<h3>ARTICLE</h3>
@@ -255,7 +270,7 @@
   		</div>
   	</div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
   	<div class="container">
   		<div class="contact_info">
   			<h3>CONTACT</h3>
