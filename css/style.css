@@ -9,7 +9,7 @@ body
 /*header*/
 .header
 {
-    padding: .6em 0;
+    padding: 2.6em 0;
 }
 .logo
 {
@@ -44,12 +44,12 @@ body
     float: right;
 
     width: 21%;
-    margin: 0.625em auto 0;
+    margin: .625em auto 0;
 }
 input[type='submit']
 {
     position: absolute;
-    top: 0.6px;
+    top: .6px;
     right: 6%;
 
     display: inline-block;
@@ -88,7 +88,6 @@ input[value='Search']
 .me_icon
 {
     position: relative;
-
     /*min-height: 600px;*/
 
     text-decoration: none;
@@ -172,7 +171,7 @@ input[value='Search']
 {
     float: left;
 
-    width: 50%;
+    width: 100%;
     padding: 7%;
 }
 .left_text h3
@@ -209,23 +208,32 @@ input[value='Search']
 
     color: #7c7c7c;
 }
-.right_img
+/*.right_img
 {
     float: left;
 
     width: 50%;
     padding: 7%;
-}
-.right_img img
+}*/
+/*.right_img img
 {
     padding-top: 10%;
     width: 100%;
-    /*left: 60%;*/
+    left: 60%;
+}*/
+#img01
+{
+    float: right;
+
+    width: 50%;
+    margin: 0 0 1em 1em;
+    padding: 0 1em auto;
 }
 .detail
 {
+    clear: left;
+
     padding-top: 15em;
-    /*width: 100%;*/
 }
 .item
 {
@@ -240,10 +248,11 @@ input[value='Search']
 }
 .detail_right
 {
-    float: right;
+    float: left;
 
     width: 50%;
 }
+
 
 .year
 {
